@@ -19,24 +19,33 @@
     <script>
         
         var relógio = prompt ("Escolha uma das três opções :\n1 - segundos  \n2 - minutos  \n3 - horas ")
-        var n1 = (prompt("digite o numero"))
+        var n1 = (prompt("digite o numero que deseja converter"))
+        var horas
+        var minutos
+        var segundos
         var resultado
 
         switch (relógio) {
             case "1": 
-            resultado= n1 = n1
+            segundos= n1 = n1
                 break
             case "2": 
-            resultado= n1   * 60
+            minutos= n1   * 60
+            horas= n1/60
+            segundos = n1/3600
                 break
             case "3": 
-            resultado = n1  * 3600
+            horas = n1  * 3600
+            minutos = n1 *60
+            segundos = n1 *3600
             break
-       
         }
 
+            
+            
+            alert("segundos: " + segundos + "\n minutos: " + minutos + " \n horas: " + horas)
+       
 
-        alert (resultado)
             </script>
             </body>
             </html>
