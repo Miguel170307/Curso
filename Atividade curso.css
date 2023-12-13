@@ -24,9 +24,11 @@
     .imagem{
         display: flex;
         justify-content:space-between;
-        width: 40%;
-        height: 45%;
+        width: 35%;
+        height: 35%;
         align-items: center;
+        border-radius: 50%;
+        border: 5px solid #3333FF;
 
     }
 
@@ -57,26 +59,24 @@
     <h3 class="subtitulo">O Prêmio Puskas, concedido ao gol mais bonito marcado no ano, foi iniciado em 2009 e Cristiano Ronaldo foi o primeiro ganhador da premiação. Ele o conquistou por seu gol de longa distância contra o FC Porto na Liga dos Campeões de 2008/09, pelo Manchester United. </h3>
     </li>
 
+    <li>
+    <h3 class="subtitulo"> Em 2009, Ronaldo se transferiu para o Real Madrid por um valor que, na época, foi recorde mundial, de 80 milhões de libras esterlinas (R$ 514,03 milhões, na cotação atual). Ele passou nove temporadas no clube, onde cimentou seu status como um dos maiores jogadores de todos os tempos.
+Durante sua passagem pelo Real Madrid, Ronaldo ganhou quatro Bolas de Ouro, quatro títulos da Liga dos Campeões, dois títulos de La Liga, e várias outras taças e prêmios.</h3> 
+    </li>
+    
+    <li>
+    <h3 class="subtitulo">Vemos muitos jogadores famosos cheios de tatuagens, mas já se perguntou o motivo de Cristiano Ronaldo não usar? Bom, o motivo é bastante grandioso, afinal CR7 é doador frequente de sangue. Além disso, o mesmo também não ingere bebidas alcoólicas, e nem fuma. Aqueles que tem o costume de doar sangue, sabe o quão delicado é o processo, onde uma tatuagem pode interferir no tempo em que o doador poderá doar novamente, sendo até anos.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </h3>
+    </li>
 
 </ul>
 
     <footer>
-
+    <h4 class="subtitulo"> Fontes:https://eisports.com.br/curiosidades/5-curiosidades-de-cristiano-ronaldo-vulgo-cr7/
+        <br>
+        https://www.goal.com/br/listas/13-curiosidades-sobre-cristiano-ronaldo/blt0ce7aedc17c4ba64#cs7b84ea6c840ed4f1
+    </h4>
 
     </footer>
     
